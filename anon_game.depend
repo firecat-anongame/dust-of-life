@@ -1,0 +1,1973 @@
+# depslib dependency file v1.0
+1444831150 source:/home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/main.cpp
+	<iostream>
+	"myIrrlicht.h"
+	"receiverEvent.h"
+	"eqip.h"
+	"loli.h"
+	"loli_bot.h"
+	"mob.h"
+
+1444788878 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/myIrrlicht.h
+	<iostream>
+	<vector>
+	"include/irrlicht.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1329663378 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1318046412 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1325779172 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/vector3d.h
+	"irrMath.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IReferenceCounted.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1307284586 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1316181670 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+	<windows.h>
+
+1325779172 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/position2d.h
+	"vector2d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1307284586 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/heapsort.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EMaterialTypes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EMaterialFlags.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SVertexIndex.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EHardwareBufferFlags.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EPrimitiveTypes.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/path.h
+	"irrString.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ECullingTypes.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EDebugSceneTypes.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EDriverFeatures.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EDriverTypes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EGUIAlignment.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EMessageBoxFlags.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ESceneNodeAnimatorTypes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ETerrainElements.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/fast_atof.h
+	"irrMath.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+
+1317733704 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1288352502 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1290776820 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1328104664 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SExposedVideoData.h
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1309016832 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ILogger.h
+	"IReferenceCounted.h"
+
+1325779172 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/Keycodes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+
+1329403412 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EAttributes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1307284586 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1288352502 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1262057972 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EShaderTypes.h
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIButton.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1325779172 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIImage.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1288352502 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1262057972 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1262057972 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SLight.h
+	"SColor.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1268313964 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IOSOperator.h
+	"IReferenceCounted.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1262057972 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/EDeviceTypes.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ITimer.h
+	"IReferenceCounted.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1314545034 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SceneParameters.h
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1317041216 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1291435212 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SKeyMap.h
+	"Keycodes.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1284719752 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1284719754 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1319203658 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1318046446 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/include/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1444789835 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/receiverEvent.h
+
+1444654315 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/gexSearch.h
+
+1444831314 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/mob.h
+
+1444838375 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/eqip.h
+
+1444839316 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/loli.h
+
+1444808701 /home/vireon/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/c++/anon_game/loli_bot.h
+
+1444831150 source:c:\documents and settings\Администратор\Рабочий стол\anon_game\main.cpp
+	<iostream>
+	"myIrrlicht.h"
+	"receiverEvent.h"
+	"eqip.h"
+	"loli.h"
+	"loli_bot.h"
+	"mob.h"
+
+1444896495 c:\documents and settings\Администратор\Рабочий стол\anon_game\myirrlicht.h
+	<iostream>
+	<vector>
+	"include/irrlicht.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1329663378 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrcompileconfig.h
+	<stdio.h>
+	<xtl.h>
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrmath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrtypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1318046412 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1325779172 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\vector3d.h
+	"irrMath.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\cdynamicmeshbuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\idynamicmeshbuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshbuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ireferencecounted.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1307284586 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\scolor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1316181670 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+	<windows.h>
+
+1325779172 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\position2d.h
+	"vector2d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrstring.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrallocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1307284586 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrarray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\heapsort.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ematerialtypes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ematerialflags.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smateriallayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\s3dvertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\svertexindex.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ehardwarebufferflags.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eprimitivetypes.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ivertexbuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iindexbuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\cvertexbuffer.h
+	"IVertexBuffer.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\cindexbuffer.h
+	"IIndexBuffer.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\cmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\coreutil.h
+	"irrString.h"
+	"path.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\path.h
+	"irrString.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ecullingtypes.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\edebugscenetypes.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\edriverfeatures.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\edrivertypes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eguialignment.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eguielementtypes.h
+	"irrTypes.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\emeshwriterenums.h
+	"irrTypes.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\emessageboxflags.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\escenenodeanimatortypes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\escenenodetypes.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eterrainelements.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\fast_atof.h
+	"irrMath.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ianimatedmesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ianimatedmeshmd2.h
+	"IAnimatedMesh.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ianimatedmeshmd3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+
+1317733704 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iq3shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ifilesystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ixmlreader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrxml.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ifilearchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ireadfile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1288352502 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ifilelist.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ivideodriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\itexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1290776820 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iimage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1328104664 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sexposedvideodata.h
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ianimatedmeshscenenode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iattributeexchangingobject.h
+	"IReferenceCounted.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodeanimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1309016832 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ieventreceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ilogger.h
+	"IReferenceCounted.h"
+
+1325779172 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\keycodes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\itriangleselector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrlist.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iattributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+
+1329403412 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eattributes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ibonescenenode.h
+	"ISceneNode.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ibillboardscenenode.h
+	"ISceneNode.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ibillboardtextscenenode.h
+	"IBillboardSceneNode.h"
+
+1307284586 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\icamerascenenode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\icursorcontrol.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\idummytransformationscenenode.h
+	"ISceneNode.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\igeometrycreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1288352502 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\igpuprogrammingservices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1262057972 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\eshadertypes.h
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguibutton.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguielement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguicheckbox.h
+	"IGUIElement.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguicolorselectdialog.h
+	"IGUIElement.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguicombobox.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguicontextmenu.h
+	"IGUIElement.h"
+
+1325779172 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguieditbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguielementfactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguienvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiskin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguifileopendialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguifont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguifontbitmap.h
+	"IGUIFont.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiimage.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiinoutfader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguilistbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguimeshviewer.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiscrollbar.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguispinbox.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguispritebank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguistatictext.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguitabcontrol.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1288352502 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguitable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguitoolbar.h
+	"IGUIElement.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiwindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1262057972 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguitreeview.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1262057972 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iguiimagelist.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iimageloader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iimagewriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ilightscenenode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\slight.h
+	"SColor.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imaterialrenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imaterialrendererservices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshcache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshloader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshmanipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1268313964 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\svertexmanipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshscenenode.h
+	"ISceneNode.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imeshwriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\imetatriangleselector.h
+	"ITriangleSelector.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iosoperator.h
+	"IReferenceCounted.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlesystemscenenode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleanimatedmeshscenenodeemitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleemitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sparticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleboxemitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlecylinderemitter.h
+	"IParticleEmitter.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlemeshemitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleringemitter.h
+	"IParticleEmitter.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlesphereemitter.h
+	"IParticleEmitter.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleattractionaffector.h
+	"IParticleAffector.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticleaffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlefadeoutaffector.h
+	"IParticleAffector.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlegravityaffector.h
+	"IParticleAffector.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iparticlerotationaffector.h
+	"IParticleAffector.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iq3levelmesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrlichtdevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1262057972 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\edevicetypes.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ivideomodelist.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\itimer.h
+	"IReferenceCounted.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\irrmap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenecollisionmanager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1314545034 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenemanager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sceneparameters.h
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iskinnedmesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1317041216 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sskinmeshbuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodeanimatorcamerafps.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodeanimatorcameramaya.h
+	"ISceneNodeAnimator.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodeanimatorcollisionresponse.h
+	"ISceneNode.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodeanimatorfactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iscenenodefactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\isceneuserdataserializer.h
+	"IReferenceCounted.h"
+
+1291435212 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ishaderconstantsetcallback.h
+	"IReferenceCounted.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ishadowvolumescenenode.h
+	"ISceneNode.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iterrainscenenode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\itextscenenode.h
+	"ISceneNode.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ivolumelightscenenode.h
+	"ISceneNode.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\iwritefile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ixmlwriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ilightmanager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sanimatedmesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sirrcreationparameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\skeymap.h
+	"Keycodes.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smeshbuffer.h
+	"CMeshBuffer.h"
+
+1284719752 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smeshbufferlightmap.h
+	"CMeshBuffer.h"
+
+1284719754 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\smeshbuffertangents.h
+	"CMeshBuffer.h"
+
+1319203658 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\ssharedmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1318046446 c:\documents and settings\Администратор\Рабочий стол\anon_game\include\sviewfrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1444789835 c:\documents and settings\Администратор\Рабочий стол\anon_game\receiverevent.h
+
+1444838375 c:\documents and settings\Администратор\Рабочий стол\anon_game\eqip.h
+
+1444839316 c:\documents and settings\Администратор\Рабочий стол\anon_game\loli.h
+
+1444808701 c:\documents and settings\Администратор\Рабочий стол\anon_game\loli_bot.h
+
+1444831314 c:\documents and settings\Администратор\Рабочий стол\anon_game\mob.h
+
